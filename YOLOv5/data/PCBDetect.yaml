@@ -1,0 +1,7 @@
+train: ../PCBDatasets/train.txt
+val: ../PCBDatasets/val.txt
+test: ../PCBDatasets/test.txt
+
+nc: 6
+
+names: ["open", "short", "mousebite", "spur", "copper", "pin-hole"]
