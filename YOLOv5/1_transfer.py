@@ -101,7 +101,7 @@ if __name__ == '__main__':
     print('Transfer .txt to .xml...ing....')
     txt_folder = 'data/PCBDatasets/txt'
     txt_file = os.listdir(txt_folder)
-    img_folder = 'data/PCBDatasets/image'
+    img_folder = 'data/PCBDatasets/images'
     xml_save_path = 'data/PCBDatasets/xml/'
  
     for txt in txt_file:

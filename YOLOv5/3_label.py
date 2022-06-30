@@ -39,10 +39,10 @@ def convert_annotation(image_id):
     labal文件中的格式：calss x y w h　　同时，一张图片对应的类别有多个，所以对应的bounding的信息也有多个
     '''
     # 对应的通过year 找到相应的文件夹，并且打开相应image_id的xml文件，其对应bund文件
-    in_file = open('./PCBDatasets/xml/%s.xml' % (image_id), encoding='utf-8')
+    in_file = open('data/PCBDatasets/xml/%s.xml' % (image_id), encoding='utf-8')
     # 准备在对应的image_id 中写入对应的label，分别为
     # <object-class> <x> <y> <width> <height>
-    out_file = open('./PCBDatasets/labels/%s.txt' % (image_id), 'w', encoding='utf-8')
+    out_file = open('data/PCBDatasets/labels/%s.txt' % (image_id), 'w', encoding='utf-8')
     # 解析xml文件
     tree = ET.parse(in_file)
     # 获得对应的键值对
@@ -95,16 +95,16 @@ for image_set in sets:
     　　　　　最后再通过直接读取文件，就能找到对应的label 信息
     '''
     # 先找labels文件夹如果不存在则创建
-    if not os.path.exists('./PCBDatasets/labels/'):
-        os.makedirs('./PCBDatasets/labels/')
+    if not os.path.exists('data/PCBDatasets/labels/'):
+        os.makedirs('data/PCBDatasets/labels/')
     # 读取在ImageSets/Main 中的train、test..等文件的内容
     # 包含对应的文件名称
-    image_ids = open('./PCBDatasets/%s.txt' % (image_set)).read().strip().split()
+    image_ids = open('data/PCBDatasets/dataSet/%s.txt' % (image_set)).read().strip().split()
    
-    list_file = open('./PCBDatasets/%s.txt' % (image_set), 'w')
+    list_file = open('data/PCBDatasets/%s.txt' % (image_set), 'w')
     # 将对应的文件_id以及全路径写进去并换行
     for image_id in image_ids:
-        list_file.write('./PCBDatasets/images/%s.jpg\n' % (image_id))
+        list_file.write('data/PCBDatasets/images/%s.jpg\n' % (image_id))
         # 调用  year = 年份  image_id = 对应的文件名_id
         convert_annotation(image_id)
     # 关闭文件
