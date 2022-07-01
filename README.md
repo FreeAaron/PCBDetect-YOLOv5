@@ -7,7 +7,7 @@
 > <br>
 > [YOLOv5介紹](YOLOv5/README.md)：[YOLOv5 🚀 in PyTorch](https://github.com/ultralytics/yolov5)
 
-## 📝Quick Start：
+## <div align="center">📝Quick Start</div>
 
 ## 1. 將欲測試之照片放入指定資料夾
 
