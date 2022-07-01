@@ -39,13 +39,15 @@ python detect.py
 
 ## 訓練及驗證結果
 
-[Wandb.ai](https://wandb.ai/freeaaron/train/runs/1fmauuce?workspace=user-freeaaron)
+[train log：Wandb.ai](https://wandb.ai/freeaaron/train/runs/1fmauuce?workspace=user-freeaaron)
 
 -   Results
     ![results](https://i.imgur.com/uxEEWAc.png)
 
 -   PR_curve
     ![PR_curve](https://i.imgur.com/zmuqR5U.png)
+
+<br>
 
 > Validation
 
@@ -54,6 +56,8 @@ python detect.py
 
 -   val_batch2_labels
     ![val_batch2_labels](https://i.imgur.com/j20zy9t.jpg)
+
+路徑 `YOLOv5\runs\train\PCBDetect` 下可看到其他結果
 
 <br>
 
