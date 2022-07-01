@@ -9,7 +9,7 @@
 
 ## 📝Quick Start：
 
-## <div align="center">1. 將欲測試之照片放入指定資料夾</div>
+## 1. 將欲測試之照片放入指定資料夾
 
 #### 將欲測試之照片放入 **`YOLOv5\data\images`** 資料夾中
 #### 大小為 **640 x 640**
@@ -18,7 +18,7 @@
 ![](https://i.imgur.com/jiwc6CV.png)
 
 
-## <div align="center">2. 執行 detect.py</div>
+## 2. 執行 detect.py
 
 #### Open your terminal/command prompt from your project directory and run the detect.py file by executing the command `python detect.py`.
 
@@ -37,7 +37,7 @@ python detect.py
 
 <br>
 
-## <div align="center">訓練及驗證結果</div>
+## 訓練及驗證結果
 [Wandb.ai](https://wandb.ai/freeaaron/train/runs/1fmauuce?workspace=user-freeaaron)
 
 - PR_curve
@@ -73,7 +73,7 @@ pip install -r requirements.txt  # install
 
 <br>
 
-## <div align="center">Contact</div>
+## Contact
 
 如果有漏洞與功能或其他問題，歡迎與我聯繫。
 FreeAaron
