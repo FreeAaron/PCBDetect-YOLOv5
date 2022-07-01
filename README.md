@@ -31,7 +31,7 @@ python detect.py
 
 ![](https://i.imgur.com/CPWs0kY.jpg)
 
-預設路徑放於　`YOLOv5\runs\detect` `\exp` 開頭之資料夾下
+預設路徑放於　`YOLOv5\runs\detect` `\exp` 開頭之資料夾下<br>
 (如欲更改資料夾名稱可於 detect.py 下之第72行進行修改)
 
 
