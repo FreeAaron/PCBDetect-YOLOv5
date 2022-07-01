@@ -8,6 +8,20 @@
 
 ## <div align="center">📝Quick Start</div>
 
+<details open>
+<summary>Install</summary>
+   
+Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
+[**Python>=3.7.0**](https://www.python.org/) environment, including
+[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
+
+```bash
+cd YOLOv5
+pip install -r requirements.txt  # install
+```
+
+</details>
+
 ## 1. 將欲檢測之照片放入指定資料夾
 
 將欲檢測之照片放入 **`YOLOv5\data\images`** 資料夾中
@@ -71,21 +85,6 @@ Done！
 -   [參考資料：Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)
 
 ---
-
-<br>
-<details open>
-<summary>必要時需安裝</summary>
-   
-Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
-[**Python>=3.7.0**](https://www.python.org/) environment, including
-[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
-
-```bash
-cd YOLOv5
-pip install -r requirements.txt  # install
-```
-
-</details>
 
 <br>
 
