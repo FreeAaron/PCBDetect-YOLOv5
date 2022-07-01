@@ -9,9 +9,9 @@
 
 ## 1. 將欲測試之照片放入指定資料夾
 
-#### 將欲測試之照片放入 **`YOLOv5\data\images`** 資料夾中
+> 將欲測試之照片放入 **`YOLOv5\data\images`** 資料夾中
 
-#### 大小為 **640 x 640**
+> 大小為 **640 x 640**
 
 ![](https://i.imgur.com/jiwc6CV.png)
 
@@ -19,16 +19,18 @@
 
 ## 2. 執行 detect.py
 
-#### Open your terminal/command prompt from your project directory and run the detect.py file by executing the command `python detect.py`.
+Open your terminal/command prompt from your project directory and run the detect.py file by executing the command `python detect.py`.
 
 ```bash
 cd YOLOv5
 python detect.py
 ```
 
-#### A Few Seconds Later
+<br>
 
-### Done！
+A Few Seconds Later
+
+Done！
 
 ![](https://i.imgur.com/CPWs0kY.jpg)
 
