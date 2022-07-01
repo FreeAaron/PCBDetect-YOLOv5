@@ -69,10 +69,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-1_transfer.py
-2_split.py
-3_label.py
-
 # C extensions
 *.so
 
