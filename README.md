@@ -17,6 +17,7 @@
 
 ![](https://i.imgur.com/jiwc6CV.png)
 
+<br>
 
 ## 2. 執行 detect.py
 
@@ -33,7 +34,6 @@ python detect.py
 
 預設路徑放於　`YOLOv5\runs\detect` `\exp` 開頭之資料夾下<br>
 (如欲更改資料夾名稱可於 detect.py 下之第72行進行修改)
-
 
 <br>
 
@@ -58,6 +58,7 @@ python detect.py
 - [參考資料：Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)
 
 ---
+<br>
 <details open>
 <summary>必要時可安裝</summary>
    
