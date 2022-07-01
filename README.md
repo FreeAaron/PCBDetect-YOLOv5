@@ -63,7 +63,7 @@ python detect.py
 
 ## Model Use
 
--   本訓練模型使用 YOLOv5s Model 進行，小且快速且效果佳。
+-   Here we select [YOLOv5s](https://github.com/ultralytics/yolov5/blob/master/models/yolov5s.yaml), the smallest and fastest model available.
 
 ![](https://i.imgur.com/yN7xGjW.png)
 
