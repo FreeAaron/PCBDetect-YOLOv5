@@ -3,15 +3,17 @@
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
 <a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="CI CPU testing"></a>
 
-> [資料集介紹](PCBDatasets/README.md)：[DeepPCB](https://github.com/tangsanli5201/DeepPCB) > <br> > [YOLOv5 介紹](YOLOv5/README.md)：[YOLOv5 🚀 in PyTorch](https://github.com/ultralytics/yolov5)
+> [資料集介紹](PCBDatasets/README.md)：[DeepPCB](https://github.com/tangsanli5201/DeepPCB)  
+> <br>
+> [YOLOv5 介紹](YOLOv5/README.md)：[YOLOv5 🚀 in PyTorch](https://github.com/ultralytics/yolov5)
 
 ## <div align="center">📝Quick Start</div>
 
 ## 1. 將欲測試之照片放入指定資料夾
 
-> 將欲測試之照片放入 **`YOLOv5\data\images`** 資料夾中
+將欲測試之照片放入 **`YOLOv5\data\images`** 資料夾中
 
-> 大小為 **640 x 640**
+大小為 **640 x 640**
 
 ![](https://i.imgur.com/jiwc6CV.png)
 
@@ -25,8 +27,6 @@ Open your terminal/command prompt from your project directory and run the detect
 cd YOLOv5
 python detect.py
 ```
-
-<br>
 
 A Few Seconds Later
 
