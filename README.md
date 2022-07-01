@@ -57,10 +57,6 @@ python detect.py
 
 - [參考資料：Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)
 
-```javascript=16
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
 ---
 <details open>
 <summary>必要時可安裝</summary>
