@@ -63,7 +63,7 @@ python detect.py
 
 ## Model Use
 
--   Here we select [YOLOv5s](https://github.com/ultralytics/yolov5/blob/master/models/yolov5s.yaml), the smallest and fastest model available.
+-   Here I select [YOLOv5s](https://github.com/ultralytics/yolov5/blob/master/models/yolov5s.yaml), the smallest and fastest model available. See YOLOv5 README [table](https://github.com/ultralytics/yolov5#pretrained-checkpoints) for a full comparison of all models.
 
 ![](https://i.imgur.com/yN7xGjW.png)
 
