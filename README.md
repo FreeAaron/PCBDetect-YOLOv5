@@ -4,7 +4,6 @@
 <a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="CI CPU testing"></a>
 
 > [資料集介紹](PCBDatasets/README.md)：[DeepPCB](https://github.com/tangsanli5201/DeepPCB)  
-> <br>
 > [YOLOv5 介紹](YOLOv5/README.md)：[YOLOv5 🚀 in PyTorch](https://github.com/ultralytics/yolov5)
 
 ## <div align="center">📝Quick Start</div>
@@ -32,7 +31,7 @@ A Few Seconds Later
 
 Done！
 
-![](https://i.imgur.com/CPWs0kY.jpg)
+![](https://i.imgur.com/fLf45vi.png)
 
 預設路徑放於　`YOLOv5\runs\detect` `\exp` 開頭之資料夾下<br>
 (如欲更改資料夾名稱可於 detect.py 下之第 72 行進行修改)
