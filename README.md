@@ -8,9 +8,9 @@
 
 ## <div align="center">📝Quick Start</div>
 
-## 1. 將欲測試之照片放入指定資料夾
+## 1. 將欲檢測之照片放入指定資料夾
 
-將欲測試之照片放入 **`YOLOv5\data\images`** 資料夾中
+將欲檢測之照片放入 **`YOLOv5\data\images`** 資料夾中
 
 大小為 **640 x 640**
 
