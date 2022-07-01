@@ -1,19 +1,17 @@
 # PCBDetect - YOLOv5
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-   <a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="CI CPU testing"></a>
+<a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="CI CPU testing"></a>
 
-> [資料集介紹](PCBDatasets/README.md)：[DeepPCB](https://github.com/tangsanli5201/DeepPCB)
-> <br>
-> [YOLOv5介紹](YOLOv5/README.md)：[YOLOv5 🚀 in PyTorch](https://github.com/ultralytics/yolov5)
+> [資料集介紹](PCBDatasets/README.md)：[DeepPCB](https://github.com/tangsanli5201/DeepPCB) > <br> > [YOLOv5 介紹](YOLOv5/README.md)：[YOLOv5 🚀 in PyTorch](https://github.com/ultralytics/yolov5)
 
 ## <div align="center">📝Quick Start</div>
 
 ## 1. 將欲測試之照片放入指定資料夾
 
 #### 將欲測試之照片放入 **`YOLOv5\data\images`** 資料夾中
-#### 大小為 **640 x 640**
 
+#### 大小為 **640 x 640**
 
 ![](https://i.imgur.com/jiwc6CV.png)
 
@@ -25,39 +23,50 @@
 
 ```bash
 cd YOLOv5
-python detect.py 
+python detect.py
 ```
+
 #### A Few Seconds Later
+
 ### Done！
 
 ![](https://i.imgur.com/CPWs0kY.jpg)
 
 預設路徑放於　`YOLOv5\runs\detect` `\exp` 開頭之資料夾下<br>
-(如欲更改資料夾名稱可於 detect.py 下之第72行進行修改)
+(如欲更改資料夾名稱可於 detect.py 下之第 72 行進行修改)
 
 <br>
 
 ## 訓練及驗證結果
+
 [Wandb.ai](https://wandb.ai/freeaaron/train/runs/1fmauuce?workspace=user-freeaaron)
 
-- PR_curve
-![PR_curve](https://i.imgur.com/zmuqR5U.png)
+-   Results
+    ![results](https://i.imgur.com/uxEEWAc.png)
 
-- val_batch2_labels
-![val_batch2_labels](https://i.imgur.com/j20zy9t.jpg)
+-   PR_curve
+    ![PR_curve](https://i.imgur.com/zmuqR5U.png)
+
+> Validation
+
+-   val_batch0_pred
+    ![val_batch0_pred](https://i.imgur.com/CsGLc6t.jpg)
+
+-   val_batch2_labels
+    ![val_batch2_labels](https://i.imgur.com/j20zy9t.jpg)
 
 <br>
 
 ## Model Use
 
-- 本訓練模型使用 YOLOv5s Model 進行，小且快速且效果佳。
+-   本訓練模型使用 YOLOv5s Model 進行，小且快速且效果佳。
 
 ![](https://i.imgur.com/yN7xGjW.png)
 
-
-- [參考資料：Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)
+-   [參考資料：Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)
 
 ---
+
 <br>
 <details open>
 <summary>必要時可安裝</summary>
@@ -70,6 +79,7 @@ Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/
 cd YOLOv5
 pip install -r requirements.txt  # install
 ```
+
 </details>
 
 <br>
