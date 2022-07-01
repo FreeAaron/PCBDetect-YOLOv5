@@ -14,7 +14,7 @@
 
 大小為 **640 x 640**
 
-![](https://i.imgur.com/jiwc6CV.png)
+![](https://i.imgur.com/wBjjKuD.png)
 
 <br>
 
@@ -28,7 +28,7 @@ python detect.py
 ```
 
 A Few Seconds Later
-
+![](https://i.imgur.com/jlPNhNP.png)
 Done！
 
 ![](https://i.imgur.com/fLf45vi.png)
@@ -74,7 +74,7 @@ Done！
 
 <br>
 <details open>
-<summary>必要時可安裝</summary>
+<summary>必要時需安裝</summary>
    
 Clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
 [**Python>=3.7.0**](https://www.python.org/) environment, including
