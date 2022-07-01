@@ -1,7 +1,7 @@
 # PCBDetect - YOLOv5
 
 ![Python](https://img.shields.io/badge/Python-3.8-blueviolet)
-<a href="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml"><img src="https://github.com/ultralytics/yolov5/actions/workflows/ci-testing.yml/badge.svg" alt="CI CPU testing"></a>
+![YOLO](https://img.shields.io/badge/YOLO-v5-brightgreen)
 
 > [資料集介紹](PCBDatasets/README.md)：[DeepPCB](https://github.com/tangsanli5201/DeepPCB)  
 > [YOLOv5 介紹](YOLOv5/README.md)：[YOLOv5 🚀 in PyTorch](https://github.com/ultralytics/yolov5)
