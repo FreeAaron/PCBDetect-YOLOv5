@@ -84,6 +84,21 @@ Done！
 
 -   [參考資料：Train Custom Data](https://github.com/ultralytics/yolov5/wiki/Train-Custom-Data)
 
+<br>
+
+## 資料前處理
+
+-   其實資料前處理無疑是最麻煩的一部分
+-   DeepPCB 原始資料集只給了測試照片與 Defect 位置座標
+-   這邊我大概說明一下我進行的前處理步驟
+
+1. 按照 VOC 格式創建資料集文件夾
+2. 資料集格式轉換 - 轉換出 xml 檔
+3. 訓練集資料劃分 - (train，val，test 按照 8：1：1 比例隨機劃分)
+4. 生成 YOLO 格式的 Label - 依照 xml 檔，轉換出適用 YOLO 格式的 label.txt 檔
+5. 修改配置文件、路徑與參數
+6. 修改 train.py 等參數，開始訓練與測試。
+
 ---
 
 <br>
