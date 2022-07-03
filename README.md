@@ -52,6 +52,8 @@ Done！
 
 <br>
 
+---
+
 ## 訓練及驗證結果
 
 [train log：Wandb.ai](https://wandb.ai/freeaaron/train/runs/1fmauuce?workspace=user-freeaaron)
